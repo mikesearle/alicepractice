@@ -1,0 +1,76 @@
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <title>Standard Form</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.0/css/materialize.min.css">
+
+</head>
+
+<body>
+  <h1>Basic Address Form</h1>
+  <div class="row">
+    <form class="col s12">
+      <div class="row">
+        <div class="input-field col s6">
+          <select>
+            <option value="" selected>Choose your option</option>
+            <option value="us">United States</option>
+            <option value="2">Option 2</option>
+            <option value="3">Option 3</option>
+          </select>
+          <label>Country</label>
+        </div>
+      </div>
+      <div class="row">
+        <div class="input-field col s6">
+          <input id="first_name" type="text" required class="validate">
+          <label for="first_name">First Name</label>
+        </div>
+        <div class="input-field col s6">
+          <input id="last_name" type="text" required class="validate">
+          <label for="last_name">Last Name</label>
+        </div>
+      </div>
+      <div class="row">
+        <div class="input-field col s6">
+          <input id="address" type="text" required class="validate">
+          <label for="address">Address</label>
+        </div>
+        <div class="input-field col s6">
+          <input id="town" type="text" required class="validate">
+          <label for="town">City/Town</label>
+        </div>
+      </div>
+      <div class="row">
+        <div class="input-field col s6">
+          <select>
+            <option value="" selected>Choose your option</option>
+            <option value="ar">Arizona</option>
+            <option value="2">Option 2</option>
+            <option value="3">Option 3</option>
+          </select>
+          <label>State</label>
+        </div>
+        <div class="input-field col s6">
+          <input id="zip-code" type="text" required class="validate">
+          <label for="zip-code">Zip Code</label>
+        </div>
+      </div>
+      <div class="row">
+        <div class="input-field col s6">
+          <input id="phone-number" type="tel" required class="validate">
+          <label for="phone-number">Phone Number</label>
+        </div>
+      </div>
+      <button class="waves-effect waves-light btn" type="submit">Submit</button>
+    </form>
+  </div>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.0/js/materialize.min.js"></script>
+
+</body>
+
+</html>
